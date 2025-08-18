@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Collections;
 
 /*
-*   Class to hanlde the shuffle mechanic of buttons
+*   Class to handle the shuffle mechanic of buttons
 *   - Only shuffles buttons that have not been solved as a word set
 *   - Uses Lerp to "animate" the button movement
 */
@@ -134,3 +134,4 @@ public class ButtonLocationManager : MonoBehaviour
         devPanel.SetActive(!devPanel.activeSelf);
     }
 }
+
